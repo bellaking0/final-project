@@ -4,12 +4,40 @@
         <title>Final</title>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="shortcut icon" type="image/png" href="imgphoto.png" />
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <div class="header"></div>
-        <h1>
-            
-        </h1>
+        <div class="container">
+            <h1>
+Check out these photos!
+            </h1>
+            <div class="image fade">
+                <img src="img/39470411995_b942f35a27_o.jpg" width="100%">
+            </div>
+            <div class="image fade">
+                <img src="img/40321443932_f11a3baab9_o.jpg" width="100%">
+            </div>
+            <div class="image fade">
+                <img src="img/40570501731_0daf92df4a_o.jpg" width="100%">
+            </div>
+            <div class="image fade">
+                <img src="img/41531717031_55e8c4008c_o.jpg" width="100%">
+            </div>
+            <div class="image fade">
+                <img src="img/46624345781_98c76e20a9_o.jpg" width="100%">
+            </div>
+            <a id="prev" onclick="show_slide(-1)">&#10094;</a>
+            <a id="next" onclick="show_slide(1)">&#10095;</a>
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <button type="button" id="clickhere">Click here for more!</button>
+        <script src="app.js"></script>
     </body>
 </html>
